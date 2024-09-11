@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="passo0.jpg" alt="">
+            <p>Você é Alex, um aventureiro em busca de um antigo artefato perdido na Floresta de Eldoria. Após horas de caminhada, você chega a uma encruzilhada. A trilha à esquerda é sombria e parece pouco frequentada, enquanto a trilha à direita é mais clara e bem marcada.</p>
+            <button class="btn-proximo" data-proximo="1">Trilha à esquerda.</button>
+            <button class="btn-proximo" data-proximo="2">Trilha à direita.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Trilha à esquerda leva a uma caverna com duas passagens: uma estreita e escura, outra mais larga e iluminada.</p>
+            <button class="btn-proximo" data-proximo="3">Passagem estreita.</button>
+            <button class="btn-proximo" data-proximo="4">Passagem larga.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Trilha à direita leva a uma cabana com um sábio oferecendo duas poções: uma vermelha e uma azul.
+            </p>
+            <button class="btn-proximo" data-proximo="5"> Poção vermelha.</button>
+            <button class="btn-proximo" data-proximo="6">Poção azul.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está localizada no Amazonas.
+                   </p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="passo4.jpg" alt="">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você ganha uma inteligencia e intuição inacreditavel.
+                </p>
+            <button class="btn-proximo" data-proximo="7">Seguir intuição.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="passo7.jpg" alt="">
+            <p>Você segue e encontra o artefato perdido!</p>
+            
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você segue e encontra o artefato perdido!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
